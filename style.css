@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5em;
+}
+
+/* GLOBAL */
+.wrapper{
+    width: 80%;
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.clear{
+    clear: both;
+}
+
+button{
+    cursor: pointer;
+}
+
+.button{
+    text-decoration: none;
+    color: #00e0d0;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    top: 10px;
+    background: none;
+}
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background: #029E91;
+	transition: 0.5s;
+}
+
+section .center-line, header .center-line{
+    border-bottom: 3px solid #eee;
+    width: 100px;
+    margin: 20px auto 30px;
+}
+
+/* END GLOBAL */
+
+/* HEADER */
+header{
+    background: url('images/bg-header.png') no-repeat center center;
+    min-height: 670px;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+
+#navbar{
+    background: -webkit-linear-gradient(left, #2C2743 0%, #443662 100%);
+    min-height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#navbar .tajam-logo{
+    background: url('images/tajam-logo.png') no-repeat center center;
+    float: left;
+    height: 50px;
+    width: 128px;
+    margin: 10px 0 -10px 0;
+}
+
+#navbar .tajam-logo:hover{
+    background: url('images/tajam-logo-hover.png') no-repeat;
+}
+
+#navbar nav{
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+#navbar nav ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+#navbar nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#navbar nav a:hover, #bottom-left a:hover{
+    color: #00e0d0;
+}
+
+#navbar .menu .active{
+    color: #00e0d0;
+}
+
+.navbar-fixed-top.scrolled {
+    color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+#main{
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+    margin-bottom:50px;
+}
+
+#main h1{
+    letter-spacing: 0.05em;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1em;
+}
+
+header .center-line{
+    border-bottom: 2px solid #00e0d0;
+}
+
+#main p{
+    padding: 0px 100px;
+    margin-bottom: 40px;
+}
+/* END OF HEADER */
