@@ -273,7 +273,65 @@ header .center-line{
 #expertise ul:last-child li:nth-child(3){
     border-top: 1px solid #DDDDDD;
 }
-/* EXPERTISE END HERE */
+/* END OF EXPERTISE */
+
+/* TEAMS */
+#teams{
+    padding-top: 200px;
+    min-height: 650px;
+    background: url('images/bg-teams.jpg') no-repeat center;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+#teams h2{
+    margin-top: -100px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#teams p{
+    padding: 10px 20px 0 20px;
+    margin-bottom: 30px;
+
+}
+
+#teams .wrapper{
+    margin-bottom: 30px;
+
+}
+
+#teams .row{
+    min-height: 150px;
+}
+
+#teams .box{
+    float: left;
+    width: 23%;
+    min-height: 250px;
+    text-align: center;
+    margin: 30px 1%;
+    box-sizing: border-box;
+    border: 1px solid #605D6D;
+}
+
+#teams img{
+    height: 75%;
+    width: 99%;
+}
+
+#teams .box h4{
+    margin: 7px 0 -13px 0;
+}
+
+#teams .box p{
+    color: #C2C2C2;
+    font-size: 14px;
+}
+/* END OF TEAMS */
+
 
 
 
