@@ -396,6 +396,37 @@ header .center-line{
 }
 /* END OF WORKS */
 
+/* PEOPLE SAY */
+#people-say{
+    padding-top: 100px;
+    min-height: 450px;
+    background: url('images/bg-people-say.jpg') no-repeat center center;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#people-say p:nth-child(2){
+    padding: 30px 15%;
+    
+}
+
+#people-say p:nth-child(4){
+    color: #C2C2C2;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+#people-say .peoples{
+    min-height: 200px;
+}
+
+#people-say .peoples img{
+    padding: 0 1%;
+}
+/* END OF PEOPLE SAY */
+
 
 
 
