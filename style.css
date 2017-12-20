@@ -332,6 +332,69 @@ header .center-line{
 }
 /* END OF TEAMS */
 
+/* WORKS */
+#works{
+    min-height: 600px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#works:after{
+    content: "";
+    display: block;
+    clear: both;margin-bottom: 100px;
+}
+
+#works h2{
+    float: left;
+}
+
+#works a.dribbble{
+    float: right;
+    text-decoration: none;
+    color: #504E58;
+}
+
+#works a.dribbble:hover{
+    font-weight: bold;
+}   
+
+#works a.dribbble img{
+    padding-left: 15px;
+}
+
+#works .row{
+    margin: 100px auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#works .row:first-child{
+    margin-bottom: 10px;
+}
+
+#works .box{
+    flex: 0 1 210px;
+    height: 210px;
+    width: 210px;
+    border: 1px solid #fff;
+}
+
+#works .box:nth-child(even){
+    background: #666666;
+}
+
+#works .box:nth-child(odd){
+    background: #C2C2C2;
+}
+
+#works .button{
+    position: relative;
+    top: 50px;
+}
+/* END OF WORKS */
 
 
 
