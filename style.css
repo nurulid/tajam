@@ -212,6 +212,70 @@ header .center-line{
 }
 /* END OF ABOUT */
 
+/* EXPERTISE */
+#expertise{
+    min-height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#expertise:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#expertise h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#expertise ul{
+    width: 100%;
+    margin: 0 auto;
+
+}
+#expertise li{
+    list-style-type: none;
+    float: left;
+    width: 27%;
+    height: 250px;
+    text-align: center;
+    padding: 4% 3% 0 3%;
+}
+
+#expertise li:hover{
+	box-shadow: 0px 0px 40px #eee;
+}
+
+#expertise li h4{
+    padding: 15px 0;
+}
+
+#expertise img{
+    height: 50px;
+    transition: 1s;
+}
+
+#expertise li:hover img{
+    transform: rotateY(360deg);
+}
+
+#expertise li:first-child, 
+#expertise li:nth-child(2){
+    border-right: 1px solid #DDDDDD;
+}
+
+#expertise ul:last-child li:nth-child(1), 
+#expertise ul:last-child li:nth-child(2), 
+#expertise ul:last-child li:nth-child(3){
+    border-top: 1px solid #DDDDDD;
+}
+/* EXPERTISE END HERE */
+
+
 
 
 
