@@ -691,6 +691,46 @@ footer{
 }
 
 @media (max-width: 768px){
+    #burger-menu{
+        background: url('images/navicon.png')no-repeat center center;
+        width: 45px;
+        height: 45px;
+        float: right;
+        margin-top: -30px;
+        margin-bottom: -30px;
+        cursor: pointer;
+    }
+
+    #navbar nav a{
+       display: block;
+       border-bottom: 1px solid #2C2743;
+    }
+
+    #navbar nav{
+        float: right;
+        margin: 0px 0px 20px 0px;
+    }
+
+    nav .menu{
+        display: block;
+    }
+
+    nav ul{
+        height: 0;
+    }
+
+    nav ul.open{
+        height: auto;
+    }
+
+    nav li{
+        margin-top: 10px;
+    }
+
+    #navbar{
+        position: relative;
+    }
+    
     .contact-us{
         float: none;
         width: 80%;
