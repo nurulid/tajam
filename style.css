@@ -692,7 +692,7 @@ footer{
 
 @media (max-width: 768px){
     #burger-menu{
-        background: url('images/navicon.png')no-repeat center center;
+        background: url('images/menu.png')no-repeat center center;
         width: 45px;
         height: 45px;
         float: right;
