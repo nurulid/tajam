@@ -787,7 +787,9 @@ footer{
 }
 
 @media (max-width:620px) {
-
+    header, #story-video, #teams, #people-say{
+        background-attachment: scroll;
+    }
     
     #expertise li{
         width: 100%;
